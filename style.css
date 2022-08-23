@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: hsl(216, 12%, 8%);
+}
+
+/*-------------------------------------------main-------------------------------------------------*/
+.rating-card
+{
+	max-width: 320px;
+	margin: 150px auto;
+	border-radius: 20px;
+	background: hsl(213, 19%, 15%);
+	padding: 30px;
+
+}
+
+.rating-card img
+{
+	background: hsl(213, 19%, 18%);
+	border-radius: 50%;
+	padding: 15px;
+	margin-bottom: 20px;
+
+}
+
+.rating-card h2
+{
+	color: hsl(0, 0%, 100%);
+	font-family: Overpass, sans-serif ,serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.rating-card p 
+{
+	color: hsl(217, 12%, 63%);
+	font-family: Overpass, sans-serif ,serif;
+	font-weight: 400;
+	font-size: 0.9em;
+	margin-bottom: 20px;
+	width:100%;
+	line-height: 25px;
+
+}
+
+.btn-number
+{
+	display: flex;
+}
+
+.btn-rating
+{
+	border: none;
+	border-radius: 50%;
+	width: 15%;
+	padding: 15px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+	color: hsl(216, 12%, 54%);
+	font-family: Overpass, sans-serif ,serif;
+	font-weight: 400;
+	font-size: 1em;
+	text-align: center;
+	background: hsl(213, 19%, 18%);
+	transition: 1s;
+}
+input
+{
+	display: none;
+}
+
+.btn-rating:hover
+{
+	background: hsl(217, 12%, 63%);
+	color: hsl(0, 0%, 100%);
+	cursor: pointer;
+}
+
+.choice-rating
+{
+	background: hsl(25, 97%, 53%);
+	color: hsl(0, 0%, 100%);
+}
+
+.submit
+{
+	border: none;
+	background: hsl(25, 97%, 53%);
+	font-family: Overpass, sans-serif ,serif;
+	font-size: 1em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: hsl(0, 0%, 100%);
+	width: 100%;
+	border-radius: 30px;
+	padding: 15px;
+	letter-spacing: 3px;
+}
+
+.submit:hover
+{
+	cursor: pointer;
+}
+
+.submit:active
+{
+	
+	background: hsl(0, 0%, 100%);
+	color: hsl(25, 97%, 53%);
+}
+
+.error
+{
+	padding: 10px;
+	color: red;
+	font-family: Overpass, sans-serif ,serif;
+}
+
+.thanks
+{
+	margin-top: 30px;
+	text-align: center;
+}
+.thanks img
+{
+	background: none;
+	border-radius: 0;
+}
+
+.thanks h3
+{
+	color: hsl(25, 97%, 53%);
+	background: hsl(213, 19%, 18%);
+	border-radius: 30px;
+	font-family: Overpass, sans-serif ,serif;
+	font-weight: 400;
+	font-size: 0.9em;
+	width: 50%;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+.thanks span 
+{
+	color: hsl(25, 97%, 53%);
+}
+
+.thanks p 
+{
+	width: 97%;
+	margin: 20px auto;
+}
+
+/*---------------------------------------------Responsive Design--------------------------------------*/
+@media screen and (max-width: 1150px)
+{
+	.rating-card
+	{
+		min-width: 320px;
+	}
+}
